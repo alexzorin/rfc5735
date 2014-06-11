@@ -46,7 +46,7 @@ func IsReservedString(ipAddr string) bool {
 	if ip == nil {
 		return false
 	}
-	return IsReserved(net.ParseIP(ipAddr))
+	return IsReserved(ip)
 }
 
 func IsReserved(ip net.IP) bool {
