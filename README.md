@@ -1,6 +1,8 @@
 rfc5735
 =======
 
+[![Build Status](https://drone.io/github.com/alexzorin/rfc5735/status.png)](https://drone.io/github.com/alexzorin/rfc5735/latest)
+
 Simple wrapper around `net` that allows you to check if an IP address (`string` or `net.IP`) is part of a reserved subnet, as per [RFC5735](http://tools.ietf.org/html/rfc5735).
 
 [Godoc](http://godoc.org/github.com/alexzorin/rfc5735).
